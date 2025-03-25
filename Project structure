@@ -1,0 +1,18 @@
+├── client/                  # React Frontend
+│   ├── src/
+│   │   ├── components/      # Reusable components (Header, JobCard, etc.)
+│   │   ├── pages/           # Page components (Home, JobListings, etc.)
+│   │   ├── contexts/        # Auth context for state management
+│   │   ├── utils/           # API calls and helpers
+│   │   └── App.js           # Routing setup
+│   └── package.json         # React dependencies (e.g., react-router-dom, axios)
+│
+├── server/                  # Node.js Backend
+│   ├── models/              # MongoDB models (Job, User, Application)
+│   ├── routes/              # API routes (auth, jobs, applications)
+│   ├── config/              # Database and JWT configuration
+│   ├── middleware/          # Auth middleware
+│   └── package.json         # Node dependencies (Express, Mongoose, Nodemailer)
+│
+├── .gitignore               # Ignores node_modules, .env, etc.
+└── README.md                # Project documentation
